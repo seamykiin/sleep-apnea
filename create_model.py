@@ -39,7 +39,7 @@ app = FastAPI()
 origins = [
     "http://localhost:8080", # Default Vite dev server port
     "http://127.0.0.1:8080", # Also common for Vite dev server
-    # Add your deployed frontend URL here if applicable
+    https://osa-prediction-api.onrender.com# Add your deployed frontend URL here if applicable
 ]
 
 app.add_middleware(
