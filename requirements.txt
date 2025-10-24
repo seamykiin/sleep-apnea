@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+pandas
+joblib
+scikit-learn
+# Add any other specific Python libraries you might be using
